@@ -1,0 +1,82 @@
+/* Code By Rahul Sharma ( @CopyRight ) */
+@import url("@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fce055;
+  background-image: linear-gradient(319deg, #fce055 0%, #256eff 37%, #46237a 100%);
+  background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
+  font-family: 'Bebas Neue';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.Heading{
+  font-size: 50px;
+  position: absolute;
+  top: 20px;
+  font-weight: 200;
+}
+.currency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.currency select {
+  background: transparent;
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.2em top 50%, 0 0;
+  background-size: 0.5em auto, 100%;
+  border: 0;
+  padding-right: 20px;
+  font-size: 22px;
+}
+.currency input {
+  border: 0;
+  background: transparent;
+  font-size: 22px;
+  text-align: right;
+}
+.middle {
+  color: #f59300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.middle button {
+  background-color: #fff;
+  border: 2px solid #ecf0f1;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #f59300;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  transform: rotate(90deg);
+}
+.middle button:active {
+  transform: rotate(90deg) scale(0.9);
+}
+.middle .rate {
+  background-color: #fff;
+  border: 2px solid #ecf0f1;
+  border-radius: 50px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 0 10px;
+  margin: 30px 15px 30px 25px;
+}
+select:focus,input:focus,button:focus {
+  outline: 0;
+}
