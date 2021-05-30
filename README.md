@@ -12,4 +12,4 @@ Select countries to get the exchange rate for a specific amount
 
 ## Contributions
 
-Mahitha.Y - (mahitha.yellani@gmail.com) => https://wd-may-21-projects-devincept.github.io/Exchange-Rate/
+Mahitha.Y - (mahitha0925@gmail.com) => https://mahitha09-exchangerate.netlify.app/
