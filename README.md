@@ -10,5 +10,6 @@ Select countries to get the exchange rate for a specific amount
 - Update values on amount change
 - Swap country rates
 
-##Contributions
+## Contributions
+
 Mahitha.Y - (mahitha.yellani@gmail.com) => https://wd-may-21-projects-devincept.github.io/Exchange-Rate/
